@@ -111,4 +111,6 @@ background-image: linear-gradient(19deg, #21D4FD 2%, #B721FF 100%);
 
 #new_wrapper{
 	display: none;
+	font-size: 100px;
+	color:rgb(51, 6, 51);
 }
