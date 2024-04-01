@@ -2,6 +2,7 @@ const button = document.getElementById("submit")
 const wrapper = document.getElementById("container1")
 const new_wrapper = document.getElementById("new_wrapper")
 const input = document.getElementById("input")
+const audio = document.getElementById("audio");
 button.addEventListener("click",()=>{
     if(input.value.length!=0){
         let flag = 0
@@ -17,6 +18,8 @@ button.addEventListener("click",()=>{
         // if(input.value)
         wrapper.style.display = "none"
         new_wrapper.style.display = "block"
+        audio.play()
     }
 }
 })
+
